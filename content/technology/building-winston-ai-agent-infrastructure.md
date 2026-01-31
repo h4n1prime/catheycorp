@@ -1,6 +1,6 @@
 ---
 title: "Building Winston: How I Set Up an AI Agent That Debugged Itself"
-date: 2026-01-31T20:40:55-06:00
+date: 2026-01-31T14:43:00-06:00
 draft: false
 categories: ["technology"]
 tags: ["ai", "openclaw", "automation", "self-hosting", "llm"]
