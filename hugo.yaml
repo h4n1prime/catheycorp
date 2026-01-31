@@ -1,0 +1,70 @@
+baseURL: "https://catheycorp.com/"
+languageCode: "en-us"
+title: "CatheyCorp"
+theme: "PaperMod"
+
+paginate: 10
+
+params:
+  env: production
+  title: CatheyCorp
+  description: "Technology, Life, Food, Gaming & Football"
+  author: Cole Cathey
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+
+  homeInfoParams:
+    Title: "CatheyCorp"
+    Content: >
+      Technology · Day in the Life · Cooking · Gaming · College Football
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/h4n1prime"
+
+  profileMode:
+    enabled: false
+
+menu:
+  main:
+    - identifier: technology
+      name: Technology
+      url: /technology/
+      weight: 10
+    - identifier: life
+      name: Life
+      url: /life/
+      weight: 20
+    - identifier: cooking
+      name: Cooking
+      url: /cooking/
+      weight: 30
+    - identifier: gaming
+      name: Gaming
+      url: /gaming/
+      weight: 40
+    - identifier: football
+      name: College Football
+      url: /football/
+      weight: 50
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 60
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
